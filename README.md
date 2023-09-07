@@ -4,6 +4,8 @@
 
 MinionsERC721 is an Ethereum-based smart contract that allows you to create and manage a collection of unique non-fungible tokens (NFTs). These NFTs can represent digital assets such as art, collectibles, or any unique items you want to tokenize.
 
+This is the contract published on the testnet network sepolia: 0x54B358b429801f32dfd5c450562e0d391825D12d
+
 ## Features
 
 - **Public Minting:** Users can mint NFTs by sending the required ether. Public minting can be controlled by the contract owner.
