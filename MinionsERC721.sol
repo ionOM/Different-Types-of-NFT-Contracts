@@ -7,6 +7,14 @@ import "@openzeppelin/contracts/security/Pausable.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/utils/Counters.sol";
 
+/*
+ * @title MinionsERC721
+ * @author Ion Platon
+ * @notice The ERC-721 introduces a standard for NFT, in other words, 
+ * this type of Token is unique and can have different value than 
+ * another Token from the same Smart Contract.
+ */
+
 contract MinionsERC721 is ERC721, ERC721Enumerable, Pausable, Ownable {
     using Counters for Counters.Counter;
 
