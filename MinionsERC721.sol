@@ -31,8 +31,8 @@ contract MinionsERC721 is ERC721, ERC721Enumerable, Pausable, Ownable {
     // State Variables //
     /////////////////////
 
-    uint256 maxSupply = 20; // Maximum total supply of tokens.
-    uint256 maxSupplyForAllow = 6; // Maximum supply for allow list minting.
+    uint256 maxSupply public = 20; // Maximum total supply of tokens.
+    uint256 maxSupplyForAllow public = 6; // Maximum supply for allow list minting.
     uint256 public nftPriceForAllowList = 0.001 ether; // Price for allow list minting.
     uint256 public nftPriceForPublic = 0.01 ether; // Price for public minting.
     bool public publicMintOpen = false; // Flag indicating if public minting is open.
